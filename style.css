@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fef3f1), to(#fee0d6));
+  background-image: linear-gradient(to right, #fef3f1, #fee0d6);
+}
+
+.container {
+  max-width: 1550px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  padding: .30rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .logo-span {
+  color: #FD3C06;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul a {
+  color: rgba(0, 0, 0, 0.575);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  position: relative;
+}
+
+nav ul img {
+  position: absolute;
+  right: 0;
+  width: 70px;
+  z-index: -1;
+}
+
+nav ul a:hover {
+  color: #FD3C06;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.header-content div h1 {
+  color: #000;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-content div .header-span {
+  color: #FD3C06;
+}
+
+.header-content div p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.header-content div a {
+  background: #FD3C06;
+  padding: 1rem 1.3rem;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-box-shadow: 3px 3px 10px #f5a7a7;
+          box-shadow: 3px 3px 10px #f5a7a7;
+}
+
+.header-content div a:hover {
+  -webkit-box-shadow: 3px 3px 20px #e48181;
+          box-shadow: 3px 3px 20px #e48181;
+}
+
+.food-list .container .food-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4vw;
+  grid-row-gap: 6vw;
+  padding: 1vw 5vw 8vw;
+}
+
+.food-list .container .food {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFBFB;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  margin-top: 5rem;
+}
+
+.food-list .container .food img {
+  background: #fff;
+  padding: 2rem 1.3em;
+  border-radius: 50%;
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+}
+
+.food-list .container .food h1 {
+  margin-bottom: 1rem;
+}
+
+.food-list .container .food p {
+  margin-bottom: 1rem;
+}
+
+.food-list .container .food .fa-plus {
+  background-color: #FF6002;
+  border-radius: 50%;
+  padding: 2rem;
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+  cursor: pointer;
+  color: #fff;
+}
+
+footer {
+  background: #2E2E54;
+}
+
+footer .container .footer-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4vw;
+  grid-row-gap: 6vw;
+  padding: 1vw 5vw 8vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .container .footer-container .footer-content {
+  color: #fff;
+}
+
+footer .container .footer-container .footer-content h1 {
+  margin-bottom: 1rem;
+}
+
+footer .container .footer-container .footer-content a {
+  color: #fff;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+footer .container .footer-container .footer-content a:hover {
+  color: #FD3C06;
+}
+
+footer .container .footer-container .footer-content img {
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
